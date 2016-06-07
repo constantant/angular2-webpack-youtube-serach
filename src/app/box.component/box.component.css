@@ -1,0 +1,16 @@
+:host{
+    display: block;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    font: 14px Helvetica, Arial, sans-serif;
+    color: #1b181b;
+}

@@ -1,0 +1,30 @@
+:host{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+.preview{
+    display: block;
+    margin-right: 20px;
+    width: 40%;
+    flex-shrink: 0;
+}
+.picture{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.description{
+    position: relative;
+}
+.title{
+    font-size: 20px;
+}
+.link{
+    color: #f00;
+}
+.text{
+
+}

@@ -1,0 +1,12 @@
+<header class="header">
+	<h1 class="title">YouTube Search</h1>
+	<search-box
+			(loading)="loading = $event"
+			(results)="updateResults($event)"></search-box>
+</header>
+<div class="list">
+	<p class="is-loading" *ngIf="loading">Loading...</p>
+	<search-result
+			*ngFor="let result of results"
+			[result]="result"></search-result>
+</div>
